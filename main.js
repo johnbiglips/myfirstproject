@@ -28,7 +28,7 @@ function headerShadow() {
 
 
 var typingEffect = new Typed(".typedText",{
-    strings : ["Frontend-Developer", "Youtuber", "Designer"],
+    strings : [" To Cretecad", " To Cretecad", " To Cretecad"],
     loop : true,
     typeSpeed : 100,
     backSpeed : 80,

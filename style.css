@@ -9,7 +9,7 @@
 
     --first-color : rgb(110,87,224);
     --first-color-hover: rgb(40,91,212);
-
+  
     --second-color : rgb(0,201,255);
     --third-color: rgb(192,166,49);
     --first-shadow-color : rgba(0,0,0, 0.18);
@@ -93,6 +93,13 @@ nav {
 
 .nav-logo {
     position: relative;
+}
+
+.nav-logo img{
+    width: 60px;
+    height: 50px;
+    margin-top: 20px;
+    mix-blend-mode: multiply;
 }
 
 .nav-name {
@@ -226,19 +233,20 @@ nav {
     width: 50%;
 }
 
-.image {
+/* .image {
     margin: auto 0;
     width: 380px;
     height: 380px;
     border-radius: 55% 45% 55% 45%;
     overflow: hidden;
     animation: imgFloat 7s ease-in-out infinite;
-}
+} */
 
 .image img {
     width: 380px;
     height: 380px;
     object-fit: cover;
+    margin-top: 180px;
 }
 
 @keyframes imgFloat {
@@ -537,6 +545,7 @@ footer {
     .image, .image img {
         width: 320px;
         height: 320px;
+        margin-top: 20px;
     }
 }
 
@@ -559,7 +568,7 @@ footer {
         align-items: center;
         background: red;
        backdrop-filter: blur(20px); 
-     width: 100%;
+       width: 100%;
         min-height: 450px;
         height: 90vh;
         transition: .3s;
@@ -603,8 +612,8 @@ footer {
     }
 
     .image, .image img  {
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
     }
 
     .row {
